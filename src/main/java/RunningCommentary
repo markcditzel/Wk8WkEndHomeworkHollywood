@@ -128,7 +128,11 @@ Does owner have an id - will have to set it ourselves in Java model
 
 Can we make tables and entries for:
 
-Studio
+Added temperament to Owner to test if we can retain unique to child IV
+
+Add and annotate as Enumerated, Temperament-associated getter and setters in Owner
+
+#PERSON - add Enumeration annotation to Gender to show the String value instead of ordinal
 
 
 

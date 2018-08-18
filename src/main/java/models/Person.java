@@ -64,7 +64,7 @@ public abstract class Person {
         this.age = age;
     }
 
-    @Column(name="gender")
+   @Enumerated(value = EnumType.STRING)
     public Gender getGender() {
         return gender;
     }

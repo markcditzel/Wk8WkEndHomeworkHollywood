@@ -3,10 +3,16 @@ import db.HibernateUtil;
 import models.Gender;
 import models.Owner;
 import models.Studio;
+import models.Temperament;
 
 public class Runner { // This is for testing the db
 
     public static void main(String[] args) {
+
+        // (1) Create an Owner (without a Studio)
+
+        Owner owner1 = new Owner("Mike", 55, Gender.MALE, 100000, true, Temperament.CRAZY);
+        DBHelper.save(owner1);
 
         // (1) Create a Studio
 

@@ -1,7 +1,4 @@
-import models.Gender;
-import models.Owner;
-import models.Person;
-import models.Studio;
+import models.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,7 +15,7 @@ public class OwnerTest {
     public void before(){
         studio1 = new Studio("NBC", "Universal Pictures", 1912);
 
-        owner1 = new Owner("Bob", 77, Gender.MALE, 55000,true);
+        owner1 = new Owner("Bob", 77, Gender.MALE, 55000,true, Temperament.CRAZY);
     }
 
 //    @Test // ensure we can retrieve the studio objects stored within owner1
