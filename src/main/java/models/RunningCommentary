@@ -22,6 +22,8 @@ Update Hibernate.cfg to reflect the new db name
 
 Git Commit the basic skeleton of generalised functionality
 
+AIM(1) Establish Abstract Person Class and Child Owener Class
+
 Make Person Class - which will be Abstract
 
 Update hibernate.cfg to incorporate Person class
@@ -43,6 +45,16 @@ Satisfy Superclass requirements in the constructor
 Add the Studio studio in the constructor
 
 Create Studio Enum to hold studio names
+
+TDD(1) : Create and Test an Owner
+    owner1 created with all necessary properties
+    setAge = tested - Parent Abstract Person Class
+    setStudio = tested - Child Owner Class
+    setGender = tested - Parent Abstract Person Class ENUM
+
+AIM (2) Establish ONE-TO-ONE RELATIONSHIP between
+
+
 
 
 
