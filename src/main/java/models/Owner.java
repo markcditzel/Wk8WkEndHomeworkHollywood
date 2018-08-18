@@ -1,7 +1,5 @@
 package models;
 
-import db.Gender;
-
 public class Owner extends Person{
 
     //IV

@@ -1,9 +1,5 @@
 package models;
 
-import db.Gender;
-
-import java.util.EnumMap;
-
 public abstract class Person {
 
     //IV
