@@ -78,13 +78,54 @@ Add an int id instance variable
 
 Add Getter and Setter for id
 
+TDD Test if the id works.
+
 Annonate the id getter with @Id
 
 Add @GeneratedValue(strategy = GenerationType.IDENTITY
 
 Add @Column to other getters for the remaining properties
 
+??? As the children of the Person class will have differnt relationship - i.e. Owner-Studio (ONE-TO-ONE) and Actor-Film (MANY-TO-MANY)
+
+Is it best to specify the distinct relationships withing the downstream / child classes???
+
+Will assume this for now
+
 2.2 Annotate the Owner class
+
+This will be a OneToOne relationship wth the studio
+
+The Owner will hold the studio's foreign key in a JoinColumn called 'studio_id'
+
+We will not allow the entry to be null - this reflects Owner class' constructor's requirment for a studio
+
+2.3 Annotate the Studio class
+
+Update Studio class IV with an Owner owner
+
+Update with getter and setter for Owner
+
+NB - Studio does not take Owner in its constructor or as a this.variable; the setter assigns owner
+
+Add int id to Studio IV
+
+Add getter and setter for id
+
+Annotate id
+
+Annotate getOwner - ONE-TO-ONE, mappedBy studio; as owner holds the studio's FK
+
+2.4 TDD Test the id of studio and owner
+
+Does owner have an id - will have to set it ourselves in Java model
+
+--> Does studio have an id - will have to set it ourselves in Java model
+
+
+
+
+
 
 
 

@@ -1,5 +1,6 @@
 import models.Gender;
 import models.Owner;
+import models.Person;
 import models.Studio;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,7 +9,9 @@ import static org.junit.Assert.assertEquals;
 
 public class OwnerTest {
     Studio studio1;
+    Studio studio2;
     Owner owner1;
+    Person owner2;
 
 
     @Before
@@ -41,5 +44,13 @@ public class OwnerTest {
     @Test
     public void ownerhasEmploymentStatus() {
         assertEquals(true, owner1.isEmploymentStatus());
+    }
+
+    @Test
+    public void ownerhasId(){
+        Studio studio2 = new Studio("Sony", "Columbia Pictures", 1981);
+        Person owner2 = new Owner("Mike", 55, Gender.OTHER, 100000, true, studio2);
+        owner2.setId(1);
+        assertEquals(1, owner2.getId());
     }
 }

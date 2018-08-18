@@ -16,7 +16,8 @@ public class Owner extends Person{
         this.studio = studio;
     }
 
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY) // this () is the same as the deafult setting if left out, but explicity include for consistency)
+    @JoinColumn(name="studio_id", nullable = false) // Owner will be holding the foreign key of the studio - which will be put into a Join column in the Owner table called "studio_id"
     public Studio getStudio() {
         return studio;
     }
