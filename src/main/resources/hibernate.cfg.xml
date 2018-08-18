@@ -13,8 +13,9 @@
         <property name="show_sql">true</property>
         <mapping class = "models.Person"/>
         <mapping class = "models.Owner"/>
-
-
+        <mapping class = "models.Studio"/>
+        <mapping class = "models.Director"/>
+        <mapping class = "models.Film"/>
 
     </session-factory>
 </hibernate-configuration>

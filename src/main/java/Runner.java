@@ -9,12 +9,21 @@ public class Runner { // This is for testing the db
 
     public static void main(String[] args) {
 
+        // (0) Create a Studio
+
+        Studio fox = new Studio("Sony", "Columbia Pictures", 1918);
+//        DBHelper.save(fox);
+
+        Studio sony = new Studio("Walt Disney", "Walt Disney Pictures", 1923);
+        DBHelper.save(sony);
+
+
         // (1) Create an Owner (without a Studio)
 
-        Owner owner1 = new Owner("Mike", 55, Gender.MALE, 100000, true, Temperament.CRAZY);
+        Owner owner1 = new Owner("Mike", 55, Gender.MALE, 100000, true, Temperament.CRAZY, fox);
         DBHelper.save(owner1);
 
-        Owner owner2 = new Owner("John", 33, Gender.MALE, 155000, true, Temperament.PASSIVE);
+        Owner owner2 = new Owner("John", 33, Gender.MALE, 155000, true, Temperament.PASSIVE, sony);
         DBHelper.save(owner2);
 
         // Update Owner

@@ -12,6 +12,7 @@ public class Studio {
     private String parentCompany;
     private String studioname;
     private int datefounded;
+    private Owner owner;
 
     // Constructor
     public Studio(String parentCompany, String studioname, int datefounded) {
@@ -57,4 +58,15 @@ public class Studio {
     public void setDatefounded(int datefounded) {
         this.datefounded = datefounded;
     }
+
+    @OneToOne(mappedBy="studio")
+    public Owner getOwner() {
+        return owner;
+    }
+
+    public void setOwner(Owner owner) {
+        this.owner = owner;
+    }
+
+
 }

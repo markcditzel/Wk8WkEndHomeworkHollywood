@@ -118,6 +118,8 @@ NB to allow to set ID will have to use polymorphic property - create a Person ow
 
 Annotate getOwner - ONE-TO-ONE, mappedBy studio; as owner holds the studio's FK
 
+Add #Studio mapping in hibernate
+
 2.4 TDD Test the id of studio and owner
 
 Does owner have an id - will have to set it ourselves in Java model
@@ -135,6 +137,39 @@ Add and annotate as Enumerated, Temperament-associated getter and setters in Own
 #PERSON - add Enumeration annotation to Gender to show the String value instead of ordinal
 
 2.5 Now the basic db is working - test CRUD features for both classes
+
+2.6 Attempt to reinstate the One-to-One relationship between Owner and Studio
+
+If ONE-TO-ONE put on the Owner only = failure
+
+Need to modify and annotate the #Studio class
+
+Add an Owner into the instance variables
+
+<Aim 3> Tackle the Film(has one Director)-Director(has many films)
+
+Know that the Director will hold an arrayList of films - #Director will be the ONE
+
+KNow that a Film will hold a Director - FILM wil be the MANY
+
+Add mapping class = Director and Film to hibernate.cfg
+
+Make #Director class - extends from Person
+
+It will be the ONE
+
+IV = ArrayList is not in constructor - so a Director can have no films associated with them at instantiation
+
+Therefore the films are added via the setter
+
+3.1 Annotate #Director Class with OneToMany mapped by director
+
+3.2 Annotate #Film Class with ManyToOne director_id
+
+Mkae it nullable false - so that every film has to have a director
+
+3.3 Need to add Genre ENUM for Film Class
+
 
 
 

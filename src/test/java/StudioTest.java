@@ -17,7 +17,7 @@ public class StudioTest {
     public void before(){
         studio1 = new Studio("NBC", "Universal Pictures", 1912);
 
-        owner1 = new Owner("Bob", 77, Gender.MALE, 55000,true, Temperament.PASSIVE);
+        owner1 = new Owner("Bob", 77, Gender.MALE, 55000,true, Temperament.PASSIVE, studio1);
     }
 
 

@@ -15,11 +15,7 @@ public enum Temperament {
         this.temperament = temperament;
     }
 
-    String getTemperament() {
+    public String getTemperament() {
         return temperament;
-    }
-
-    public void setTemperament(String temperament) {
-        this.temperament = temperament;
     }
 }
