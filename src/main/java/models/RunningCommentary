@@ -1,0 +1,46 @@
+
+New Project
+
+Select Maven
+
+com.codeclan.Hollywwod
+
+Artifcat = Hollywood
+
+Update pom.xml file with dependency - within the <dependencies>
+
+Create and Update HibernateUtil - check db connection URL and mappig class
+NB - these need to be continually updated with each addition of a Class
+
+Create DBHelper Class to assist CRUD and basic search functions
+
+Create HibernateUtil Class
+
+Createdb Hollywood
+
+Update Hibernate.cfg to reflect the new db name
+
+Git Commit the basic skeleton of generalised functionality
+
+Make Person Class - which will be Abstract
+
+Update hibernate.cfg to incorporate Person class
+
+Make Gender Enum to use with Person class
+
+Cant test an Person Class as it is abstract
+
+WRT DB - all the IV elements need Getters and Setters
+
+
+
+
+
+
+
+
+
+
+
+
+
