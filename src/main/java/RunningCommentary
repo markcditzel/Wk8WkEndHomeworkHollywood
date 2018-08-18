@@ -56,7 +56,7 @@ REFACTOR - realised that an ENUM for studio is not a good idea!
 
 REFACTOR - convert Studio ENUM into Class
 
-Full TDD testing using JUNIT in test folder
+Full TDD testing using JUNIT in test folder for both Owner and Studion classes
 
 AIM (2) Establish ONE-TO-ONE RELATIONSHIP between
 
@@ -71,6 +71,22 @@ The Class that does not hold the foreign object can be easily queried
 So - we want to ask "Hey the Studio who is your Owner" - therefore we need to put the Studio into the Owner's constructor
 
 It means that a Owner must have a Studio and a Studio cannot have an Owner - bit weird but will go with it!
+
+2.1 Annotate the Person class - to note inheritance
+
+Add an int id instance variable
+
+Add Getter and Setter for id
+
+Annonate the id getter with @Id
+
+Add @GeneratedValue(strategy = GenerationType.IDENTITY
+
+Add @Column to other getters for the remaining properties
+
+2.2 Annotate the Owner class
+
+
 
 
 

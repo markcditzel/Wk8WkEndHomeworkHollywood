@@ -1,5 +1,10 @@
 package models;
 
+import javax.persistence.*;
+
+// Annotate for Hibernate db functionality
+@Entity
+@Table(name="owners") // use the plural of the class name for labelling the db table
 public class Owner extends Person{
 
     //IV
@@ -11,6 +16,7 @@ public class Owner extends Person{
         this.studio = studio;
     }
 
+    @OneToOne
     public Studio getStudio() {
         return studio;
     }

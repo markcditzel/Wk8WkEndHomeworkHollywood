@@ -1,8 +1,15 @@
 package models;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name="persons") // label as plural for the associated db table's name
+@Inheritance(strategy = InheritanceType.JOINED) // define a type of db inheritance
+
 public abstract class Person {
 
     //IV
+    private int id;
     private String name;
     private int age;
     private Gender gender;
@@ -23,13 +30,23 @@ public abstract class Person {
     // For DB functionality - all IV elements need GETTER and SETTERS
 
     /* For JAVA-only: What is going to change? Age, salary, empStatus
-    So they all will need setters
-
-
+    So they all will need setters;
     FOR JAVA-only: What is going to be accessed - All
     So they all need getters
      */
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // different strategies to govern PK generation in db
+    @Column(name="id")
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Column(name="name")
     public String getName() {
         return name;
     }
@@ -38,6 +55,7 @@ public abstract class Person {
         this.name = name;
     }
 
+    @Column(name="age")
     public int getAge() {
         return age;
     }
@@ -46,6 +64,7 @@ public abstract class Person {
         this.age = age;
     }
 
+    @Column(name="gender")
     public Gender getGender() {
         return gender;
     }
@@ -54,6 +73,7 @@ public abstract class Person {
         this.gender = gender;
     }
 
+    @Column(name="salary")
     public double getSalary() {
         return salary;
     }
@@ -62,6 +82,7 @@ public abstract class Person {
         this.salary = salary;
     }
 
+    @Column(name="employmnetstatus")
     public boolean isEmploymentStatus() {
         return employmentStatus;
     }
