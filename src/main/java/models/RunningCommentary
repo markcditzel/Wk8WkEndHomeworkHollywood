@@ -9,7 +9,7 @@ Artifcat = Hollywood
 
 Update pom.xml file with dependency - within the <dependencies>
 
-Create and Update HibernateUtil - check db connection URL and mappig class
+Create and Update HibernateUtil - check db connection URL and mapping class
 NB - these need to be continually updated with each addition of a Class
 
 Create DBHelper Class to assist CRUD and basic search functions
@@ -31,6 +31,18 @@ Make Gender Enum to use with Person class
 Cant test an Person Class as it is abstract
 
 WRT DB - all the IV elements need Getters and Setters
+
+MAKE Owner Class inherit from Person
+
+Add Owner class to hibernate.cfg
+
+Make Owner Class extend from Person
+
+Satisfy Superclass requirements in the constructor
+
+Add the Studio studio in the constructor
+
+Create Studio Enum to hold studio names
 
 
 
