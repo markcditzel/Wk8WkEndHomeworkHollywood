@@ -52,7 +52,26 @@ TDD(1) : Create and Test an Owner
     setStudio = tested - Child Owner Class
     setGender = tested - Parent Abstract Person Class ENUM
 
+REFACTOR - realised that an ENUM for studio is not a good idea!
+
+REFACTOR - convert Studio ENUM into Class
+
+Full TDD testing using JUNIT in test folder
+
 AIM (2) Establish ONE-TO-ONE RELATIONSHIP between
+
+Need to decide who takes who in their constructor
+
+NB as this can dictate who can be easily queried
+
+The Class holding the foreign object (think foreign key) is the one that cannot be easily queried
+
+The Class that does not hold the foreign object can be easily queried
+
+So - we want to ask "Hey the Studio who is your Owner" - therefore we need to put the Studio into the Owner's constructor
+
+It means that a Owner must have a Studio and a Studio cannot have an Owner - bit weird but will go with it!
+
 
 
 
