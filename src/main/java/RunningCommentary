@@ -114,6 +114,8 @@ Add getter and setter for id
 
 Annotate id
 
+NB to allow to set ID will have to use polymorphic property - create a Person ownerX = new Owner
+
 Annotate getOwner - ONE-TO-ONE, mappedBy studio; as owner holds the studio's FK
 
 2.4 TDD Test the id of studio and owner
@@ -121,6 +123,8 @@ Annotate getOwner - ONE-TO-ONE, mappedBy studio; as owner holds the studio's FK
 Does owner have an id - will have to set it ourselves in Java model
 
 --> Does studio have an id - will have to set it ourselves in Java model
+
+
 
 
 

@@ -53,4 +53,5 @@ public class OwnerTest {
         owner2.setId(1);
         assertEquals(1, owner2.getId());
     }
+
 }

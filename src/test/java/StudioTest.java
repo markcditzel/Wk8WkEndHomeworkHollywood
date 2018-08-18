@@ -40,4 +40,10 @@ public class StudioTest {
     public void studioHasDateFounded(){
         assertEquals(1912, studio1.getDatefounded());
     }
+
+    @Test
+    public void studioHasId(){
+        studio1.setId(2);
+        assertEquals(2, studio1.getId());
+    }
 }
