@@ -124,7 +124,11 @@ Does owner have an id - will have to set it ourselves in Java model
 
 --> Does studio have an id - will have to set it ourselves in Java model
 
+2.4 Check that the db relationship is functioning
 
+Can we make tables and entries for:
+
+Studio
 
 
 

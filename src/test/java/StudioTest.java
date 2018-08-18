@@ -16,7 +16,7 @@ public class StudioTest {
     public void before(){
         studio1 = new Studio("NBC", "Universal Pictures", 1912);
 
-        owner1 = new Owner("Bob", 77, Gender.MALE, 55000,true, studio1);
+        owner1 = new Owner("Bob", 77, Gender.MALE, 55000,true);
     }
 
 
@@ -41,9 +41,9 @@ public class StudioTest {
         assertEquals(1912, studio1.getDatefounded());
     }
 
-    @Test
-    public void studioHasId(){
-        studio1.setId(2);
-        assertEquals(2, studio1.getId());
-    }
+//    @Test
+//    public void studioHasId(){
+//        studio1.setId(2);
+//        assertEquals(2, studio1.getId());
+//    }
 }
