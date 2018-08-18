@@ -14,6 +14,23 @@ public class Runner { // This is for testing the db
         Owner owner1 = new Owner("Mike", 55, Gender.MALE, 100000, true, Temperament.CRAZY);
         DBHelper.save(owner1);
 
+        Owner owner2 = new Owner("John", 33, Gender.MALE, 155000, true, Temperament.PASSIVE);
+        DBHelper.save(owner2);
+
+        // Update Owner
+        owner1.setAge(56);
+        DBHelper.update(owner1);
+
+        // Delete Owner
+        DBHelper.delete(owner1);
+
+
+
+
+
+
+
+
         // (1) Create a Studio
 
 //        Studio fox = new Studio("Sony", "Columbia Pictures", 1918);

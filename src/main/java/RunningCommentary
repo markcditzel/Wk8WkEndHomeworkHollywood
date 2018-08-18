@@ -134,6 +134,10 @@ Add and annotate as Enumerated, Temperament-associated getter and setters in Own
 
 #PERSON - add Enumeration annotation to Gender to show the String value instead of ordinal
 
+2.5 Now the basic db is working - test CRUD features for both classes
+
+
+
 
 
 
