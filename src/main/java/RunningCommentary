@@ -1,11 +1,18 @@
 
+NB - need to think about progreamming to abstract Class and Interfaces (think behaviours stratification)
+
+e.g all persons are payed a salary - IPayable interface?
+
+What are the pros and cons of using Abstratc Class and interface?
+
+
 New Project
 
 Select Maven
 
 com.codeclan.Hollywwod
 
-Artifcat = Hollywood
+Artifact = Hollywood
 
 Update pom.xml file with dependency - within the <dependencies>
 
@@ -248,7 +255,13 @@ this.directors.add(director)
         studio.addDirectorToStudio(director);
         DBHelper.update(studio);
 
-5.14
+5.14 Test assigning a studio to a director in Runner
+
+Checked in Postico for entries in the studio_director table
+
+<Aim 6> Setup FilmPersonnel Abstract Class that inherits from Person
+
+Could use an interface - Iemployable - as all are either employed or not employed to work on a film???
 
 
 
