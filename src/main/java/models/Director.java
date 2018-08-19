@@ -1,9 +1,6 @@
 package models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,10 +11,12 @@ public class Director extends Person {
 
    // IV:
     List<Film> films;
+    List<Studio> studios;
 
     //Constructor
     public Director(String name, int age, Gender gender, double salary, boolean employmentStatus) {
         super(name, age, gender, salary, employmentStatus);
+        this.studios = new ArrayList<Studio>();
     }
 
     //Getters and Setters
@@ -30,6 +29,20 @@ public class Director extends Person {
 
     public void setFilms(List<Film> films) {
         this.films = films;
+    }
+
+    // I Dont think CASCADE is needed on both of the Classes???
+    @ManyToMany
+   @JoinTable(name="studio_director",
+           joinColumns = {@JoinColumn(name="director_id", nullable = false, updatable = false)},
+           inverseJoinColumns = {@JoinColumn(name="studio_id", nullable = false, updatable = false)}
+   )
+    public List<Studio> getStudios() {
+        return studios;
+    }
+
+    public void setStudios(List<Studio> studios) {
+        this.studios = studios;
     }
 
     //Methods

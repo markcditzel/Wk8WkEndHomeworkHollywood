@@ -1,6 +1,10 @@
 package models;
 
+import org.hibernate.annotations.Cascade;
+
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name="studios")
@@ -13,12 +17,14 @@ public class Studio {
     private String studioname;
     private int datefounded;
     private Owner owner;
+    private List<Director> directors;
 
     // Constructor
     public Studio(String parentCompany, String studioname, int datefounded) {
         this.parentCompany = parentCompany;
         this.studioname = studioname;
         this.datefounded = datefounded;
+        this.directors = new ArrayList<Director>();
     }
 
     //Getters and Setters
@@ -68,5 +74,16 @@ public class Studio {
         this.owner = owner;
     }
 
+    @Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+    @ManyToMany
+    @JoinTable(name="studio_director",
+    joinColumns = {@JoinColumn(name="studio_id", nullable = false, updatable = false)},
+    inverseJoinColumns = {@JoinColumn(name ="director_id", nullable = false, updatable = false)})
+    public List<Director> getDirectors() {
+        return directors;
+    }
 
+    public void setDirectors(List<Director> directors) {
+        this.directors = directors;
+    }
 }

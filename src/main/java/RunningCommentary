@@ -200,6 +200,53 @@ Reinstate the foreign element in both classes
 
 3.8 Forgot to add Id to both Film and Director and add getter and setter
 
+Empty Tables created correctly
+
+<AIM> 4 Add Films and Directors to tables
+
+Need to creat Directors first as they can tolerate having an empty ArrayList of films, but a film must take a director in its constructor
+
+4.1 Create some directors and DBHelper save them
+
+4.2 Create some films that take in directors and DBHelper save them
+
+<AIM 5> Establish Many-To_Many between Studio and Director
+
+5.1 Add List<Director> to studio IV and in its constructor (not in parameters)
+
+5.2 Add Getters and Setters for directors
+
+5.3 Annotate directors Getter for Many-To-Many
+
+5.4 Runner to check if join table 'studio_director'
+
+5.5 Add List<Studio> to director IV and in constructor (but not parameters)
+
+5.6 Annotate both classes for Many-To-Many relatioship
+
+5.7 Make Studio hold the cascadeType - call it the major class
+
+5.8 So Director does not reference cascadable
+
+5.9 Annotate the approriate getters in each class
+
+5.10 In Studio the JoinColumn is "studio_id: and inverseJoin = "director_id"
+
+5.11 In Director the JoinColumn is "director_id" and inverse is "studio_id"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

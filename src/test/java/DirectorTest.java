@@ -28,21 +28,21 @@ public class DirectorTest {
         assertEquals("Tim", director1.getName());
     }
 
-//    @Test
-//    public void directorHasCountOfFilms1() {
-//        ArrayList<Film> filmlist = new ArrayList<Film>();
-//        filmlist.add(film1);
-//        director1.setFilms(filmlist);
-//        assertEquals(1, director1.getFilms().size());
-//    }
-//
-//    @Test
-//    public void directorHasCountOfFilms2() {
-//        ArrayList<Film> filmlist = new ArrayList<Film>();
-//        filmlist.add(film1);
-//        director1.setFilms(filmlist);
-//        assertEquals(1, director1.numberOfFilms());
-//    }
+    @Test
+    public void directorHasCountOfFilms1() {
+        ArrayList<Film> filmlist = new ArrayList<Film>();
+        filmlist.add(film1);
+        director1.setFilms(filmlist);
+        assertEquals(1, director1.getFilms().size());
+    }
+
+    @Test
+    public void directorHasCountOfFilms2() {
+        ArrayList<Film> filmlist = new ArrayList<Film>();
+        filmlist.add(film1);
+        director1.setFilms(filmlist);
+        assertEquals(1, director1.numberOfFilms());
+    }
 
 //    @Test - how to add a film into a pre-existing arraylist????
 //    public void canAddFilmIntoPrexistingArrayListFilms(){
