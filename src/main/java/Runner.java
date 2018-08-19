@@ -1,4 +1,5 @@
 import db.DBHelper;
+import db.DBStudio;
 import db.HibernateUtil;
 import models.*;
 
@@ -44,6 +45,10 @@ public class Runner { // This is for testing the db
 
         Film twoThousAndOne = new Film("2001: A Space Odyssey", Genre.SCIFI, 3330000, 12, stanleyKubrick);
         DBHelper.save(twoThousAndOne);
+
+     DBStudio.addStudioToDirector(fox, stanleyKubrick);
+
+     DBStudio.addStudioToDirector(fox,milosForman);
 
 
 // ************************* DON'T CODE UNDER THIS LINE ****************************************************

@@ -234,6 +234,22 @@ Need to creat Directors first as they can tolerate having an empty ArrayList of 
 
 5.11 In Director the JoinColumn is "director_id" and inverse is "studio_id"
 
+5.12 Added methods to add the foreign class to the host class
+
+addStudiotoDirector(Studio studio){
+this.studios.add(studio)
+
+addDirectorToStudio(Director director){
+this.directors.add(director)
+
+5.13 Create DBStudio helper (as Studio holds the Cascade function)
+
+  public static void addStudioToDirector(Studio studio, Director director){
+        studio.addDirectorToStudio(director);
+        DBHelper.update(studio);
+
+5.14
+
 
 
 

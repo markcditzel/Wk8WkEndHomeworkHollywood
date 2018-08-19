@@ -86,4 +86,10 @@ public class Studio {
     public void setDirectors(List<Director> directors) {
         this.directors = directors;
     }
+
+    // METHODS
+
+    public void addDirectorToStudio(Director director){
+        this.directors.add(director);
+    }
 }

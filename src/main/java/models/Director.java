@@ -51,6 +51,10 @@ public class Director extends Person {
      public int numberOfFilms(){
         return this.films.size();
     }
+
+    public void addStudioToDirector(Studio studio){
+        this.studios.add(studio);
+    }
 //
 //    //How to add a Film to the directors List<Film>?
 //    public void addFilmToDirectorsFilms(Film film){
