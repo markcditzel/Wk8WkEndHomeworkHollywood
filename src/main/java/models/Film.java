@@ -2,9 +2,13 @@ package models;
 
 import javax.persistence.*;
 
+@Entity
+@Table(name="films")
+
 public class Film {
 
     //IV:
+    private int id;
     private String title;
     private Genre genre;
     private double budget;
@@ -21,6 +25,18 @@ public class Film {
         this.ageRating = ageRating;
         this.director = director;
         this.takings = 0;
+    }
+
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="id")
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Column(name="title")
@@ -69,9 +85,8 @@ public class Film {
         this.ageRating = ageRating;
     }
 
-//    @ManyToOne
-//    @JoinColumn(name="director_id", nullable = false) // film must have director
-    @Column(name="director")
+    @ManyToOne
+    @JoinColumn(name="director_id", nullable = false) // film must have director
     public Director getDirector() {
         return director;
     }

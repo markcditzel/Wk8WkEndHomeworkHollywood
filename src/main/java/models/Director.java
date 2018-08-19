@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Director extends Person {
 
-    //IV:
+   // IV:
     List<Film> films;
 
     //Constructor
@@ -22,7 +22,7 @@ public class Director extends Person {
 
     //Getters and Setters
 
-//    @OneToMany(mappedBy="director") // mapped in other class
+    @OneToMany(mappedBy="director") // mapped in other class
     @Column(name="films")
     public List<Film> getFilms() {
         return films;
@@ -31,4 +31,19 @@ public class Director extends Person {
     public void setFilms(List<Film> films) {
         this.films = films;
     }
+
+    //Methods
+
+    //Use this method to return the number of films associated with a director
+     public int numberOfFilms(){
+        return this.films.size();
+    }
+//
+//    //How to add a Film to the directors List<Film>?
+//    public void addFilmToDirectorsFilms(Film film){
+//        this.films.add(film);
+//    }
+
+
+
 }

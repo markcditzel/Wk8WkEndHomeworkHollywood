@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8116ff-5b31-4722-8c53-da0cfb59dd89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FilmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RunningCommentary" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunningCommentary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Studio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Studio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Temperament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Temperament.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OwnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OwnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StudioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FilmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FilmTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,30 +31,30 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="RunningCommentary" value="3" />
-          <entry key="java" value="33" />
+          <entry key="java" value="41" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="41" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="RunningCommentary" value="5265" />
+          <entry key="RunningCommentary" value="6464" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="6409" />
-          <entry key="txt" value="1028" />
+          <entry key="java" value="7574" />
+          <entry key="txt" value="1072" />
           <entry key="xml" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6409" />
-          <entry key="PLAIN_TEXT" value="6301" />
+          <entry key="JAVA" value="7574" />
+          <entry key="PLAIN_TEXT" value="7544" />
           <entry key="XML" value="63" />
         </counts>
       </usages-collector>
@@ -74,35 +67,59 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/StudioTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="363">
-                  <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+                <state relative-caret-position="690">
+                  <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#948#970#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/models/Director.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/models/Person.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+                <state relative-caret-position="802">
+                  <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/models/Gender.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/FilmTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="446">
+                  <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="42" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="495">
+                  <caret line="30" selection-start-line="30" selection-start-column="2" selection-end-line="44" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#687#698#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -110,8 +127,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/models/Studio.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1080">
-                  <caret line="72" selection-start-line="72" selection-end-line="72" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -119,17 +136,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/models/Owner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="239">
-                  <caret line="30" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/models/Film.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1140">
-                  <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+                <state relative-caret-position="165">
+                  <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -143,10 +151,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/OwnerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="199">
+                <state relative-caret-position="285">
                   <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
                 </state>
               </provider>
@@ -159,17 +167,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/RunningCommentary">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="563">
-                  <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/FilmTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="389">
-                  <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+                <state relative-caret-position="195">
+                  <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
                 </state>
               </provider>
             </entry>
@@ -177,26 +176,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/models/Genre.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/models/Person.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1110">
-                  <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/models/Owner.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/models/Film.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="495">
-                  <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+                  <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/models/Director.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="630">
+                  <caret line="40" column="2" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -212,6 +211,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>list</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -232,12 +236,13 @@
         <option value="$PROJECT_DIR$/src/test/java/StudioTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Studio.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/RunningCommentary" />
         <option value="$PROJECT_DIR$/src/main/java/models/Genre.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Temperament.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Director.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Film.java" />
         <option value="$PROJECT_DIR$/src/test/java/FilmTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DirectorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Director.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RunningCommentary" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Film.java" />
       </list>
     </option>
   </component>
@@ -327,7 +332,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534625439611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534674554438" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -350,71 +355,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FilmTest.filmHasDirector">
-    <configuration name="FilmTest.filmHasAgeRating" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="Hollywood" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest.canAddFilmIntoPrexistingArrayListFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hollywood" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FilmTest" />
-      <option name="METHOD_NAME" value="filmHasAgeRating" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="canAddFilmIntoPrexistingArrayListFilms" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmTest.filmHasBudget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.directorHasCountOfFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hollywood" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FilmTest" />
-      <option name="METHOD_NAME" value="filmHasBudget" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="directorHasCountOfFilms" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmTest.filmHasDirector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.directorHasCountOfFilms2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hollywood" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FilmTest" />
-      <option name="METHOD_NAME" value="filmHasDirector" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="directorHasCountOfFilms2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmTest.filmHasGenre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.doesDirectorHaveSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hollywood" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FilmTest" />
-      <option name="METHOD_NAME" value="filmHasGenre" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilmTest.filmHasTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hollywood" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FilmTest" />
-      <option name="METHOD_NAME" value="filmHasTitle" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="doesDirectorHaveSalary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FilmTest.filmHasTitle" />
-      <item itemvalue="JUnit.FilmTest.filmHasGenre" />
-      <item itemvalue="JUnit.FilmTest.filmHasBudget" />
-      <item itemvalue="JUnit.FilmTest.filmHasAgeRating" />
-      <item itemvalue="JUnit.FilmTest.filmHasDirector" />
+      <item itemvalue="JUnit.DirectorTest.directorHasCountOfFilms" />
+      <item itemvalue="JUnit.DirectorTest.directorHasCountOfFilms2" />
+      <item itemvalue="JUnit.DirectorTest.canAddFilmIntoPrexistingArrayListFilms" />
+      <item itemvalue="JUnit.DirectorTest.doesDirectorHaveSalary" />
+      <item itemvalue="Application.Runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FilmTest.filmHasDirector" />
-        <item itemvalue="JUnit.FilmTest.filmHasAgeRating" />
-        <item itemvalue="JUnit.FilmTest.filmHasBudget" />
-        <item itemvalue="JUnit.FilmTest.filmHasGenre" />
-        <item itemvalue="JUnit.FilmTest.filmHasTitle" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="JUnit.DirectorTest.doesDirectorHaveSalary" />
+        <item itemvalue="JUnit.DirectorTest.canAddFilmIntoPrexistingArrayListFilms" />
+        <item itemvalue="JUnit.DirectorTest.directorHasCountOfFilms2" />
+        <item itemvalue="JUnit.DirectorTest.directorHasCountOfFilms" />
       </list>
     </recent_temporary>
   </component>
@@ -520,39 +522,46 @@
       <option name="project" value="LOCAL" />
       <updated>1534609034051</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Created Director Class and TDD tested model">
+      <created>1534625504069</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534625504069</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudioTest_studioHasParentCompany - 2018.08.18 at 14h 01m 32s.xml">
-      <configuration name="StudioTest.studioHasParentCompany" configurationId="JUnit" />
+    <history-entry file="DirectorTest_directorHasCountOfFilms - 2018.08.19 at 08h 47m 07s.xml">
+      <configuration name="DirectorTest.directorHasCountOfFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudioTest_studioHasStudioName - 2018.08.18 at 14h 01m 36s.xml">
-      <configuration name="StudioTest.studioHasStudioName" configurationId="JUnit" />
+    <history-entry file="DirectorTest_directorHasCountOfFilms - 2018.08.19 at 08h 48m 26s.xml">
+      <configuration name="DirectorTest.directorHasCountOfFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudioTest_studioHasDateFounded - 2018.08.18 at 14h 02m 32s.xml">
-      <configuration name="StudioTest.studioHasDateFounded" configurationId="JUnit" />
+    <history-entry file="DirectorTest_directorHasCountOfFilms2 - 2018.08.19 at 08h 58m 59s.xml">
+      <configuration name="DirectorTest.directorHasCountOfFilms2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OwnerTest_ownerhasId - 2018.08.18 at 15h 04m 07s.xml">
-      <configuration name="OwnerTest.ownerhasId" configurationId="JUnit" />
+    <history-entry file="DirectorTest_canAddFilmIntoPrexistingArrayListFilms - 2018.08.19 at 09h 04m 32s.xml">
+      <configuration name="DirectorTest.canAddFilmIntoPrexistingArrayListFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudioTest_studioHasId - 2018.08.18 at 16h 30m 05s.xml">
-      <configuration name="StudioTest.studioHasId" configurationId="JUnit" />
+    <history-entry file="DirectorTest_canAddFilmIntoPrexistingArrayListFilms - 2018.08.19 at 09h 04m 57s.xml">
+      <configuration name="DirectorTest.canAddFilmIntoPrexistingArrayListFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmTest_filmHasTitle - 2018.08.18 at 21h 43m 19s.xml">
-      <configuration name="FilmTest.filmHasTitle" configurationId="JUnit" />
+    <history-entry file="DirectorTest_directorHasCountOfFilms2 - 2018.08.19 at 09h 21m 30s.xml">
+      <configuration name="DirectorTest.directorHasCountOfFilms2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmTest_filmHasGenre - 2018.08.18 at 21h 45m 05s.xml">
-      <configuration name="FilmTest.filmHasGenre" configurationId="JUnit" />
+    <history-entry file="DirectorTest_directorHasCountOfFilms2 - 2018.08.19 at 09h 21m 54s.xml">
+      <configuration name="DirectorTest.directorHasCountOfFilms2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmTest_filmHasGenre - 2018.08.18 at 21h 45m 16s.xml">
-      <configuration name="FilmTest.filmHasGenre" configurationId="JUnit" />
+    <history-entry file="DirectorTest_canAddFilmIntoPrexistingArrayListFilms - 2018.08.19 at 09h 21m 58s.xml">
+      <configuration name="DirectorTest.canAddFilmIntoPrexistingArrayListFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmTest_filmHasBudget - 2018.08.18 at 21h 46m 33s.xml">
-      <configuration name="FilmTest.filmHasBudget" configurationId="JUnit" />
+    <history-entry file="DirectorTest_doesDirectorHaveSalary - 2018.08.19 at 09h 26m 15s.xml">
+      <configuration name="DirectorTest.doesDirectorHaveSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilmTest_filmHasBudget - 2018.08.18 at 21h 46m 49s.xml">
-      <configuration name="FilmTest.filmHasBudget" configurationId="JUnit" />
+    <history-entry file="DirectorTest_doesDirectorHaveSalary - 2018.08.19 at 09h 26m 24s.xml">
+      <configuration name="DirectorTest.doesDirectorHaveSalary" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -565,7 +574,7 @@
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.19527897" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.19527897" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3299363" />
@@ -573,7 +582,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -603,7 +612,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -637,7 +646,8 @@
     <MESSAGE value="Model worked but previous realtional annotations did not allow db to work - stripped away all relational annotations and db works OK" />
     <MESSAGE value="Basic Db working. Added ENUM - STRING into db for both #Person gender and #Owner temperament" />
     <MESSAGE value="Owner db CRUD tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="Owner db CRUD tested" />
+    <MESSAGE value="Created Director Class and TDD tested model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Director Class and TDD tested model" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHelper.java">
@@ -648,20 +658,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/StudioEnum.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Gender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -683,34 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Studio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Temperament.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -718,52 +686,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Owner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RunningCommentary">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OwnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="285">
           <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FilmTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        <state relative-caret-position="446">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="30" selection-start-line="30" selection-start-column="2" selection-end-line="44" selection-end-column="7" />
+          <folding>
+            <element signature="e#687#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Gender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RunningCommentary">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Studio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="40" column="2" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="e#948#970#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

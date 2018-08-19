@@ -37,10 +37,10 @@ public class FilmTest {
         assertEquals(18, film1.getAgeRating());
     }
 
-    @Test
-    public void filmHasDirector(){
-        assertEquals("Tim", film1.getDirector().getName());
-    }
+//    @Test
+//    public void filmHasDirector(){
+//        assertEquals("Tim", film1.getDirector().getName());
+//    }
 
 
 }

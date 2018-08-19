@@ -160,15 +160,53 @@ It will be the ONE
 
 IV = ArrayList is not in constructor - so a Director can have no films associated with them at instantiation
 
+NB - this should be a SET rather than an Arraylist - so the same Film cannot be associated with a director
+
 Therefore the films are added via the setter
 
 3.1 Annotate #Director Class with OneToMany mapped by director
 
 3.2 Annotate #Film Class with ManyToOne director_id
 
-Mkae it nullable false - so that every film has to have a director
+Make it nullable false - so that every film has to have a director
 
 3.3 Need to add Genre ENUM for Film Class
+
+3.4 ERROR - Relationship db errors
+
+Remove all hibernate annotations pertaining to Director and Film relationship
+
+3.5 TDD Test #Film class - all passed; has a director
+
+3.6 TDD test #Director List<Film> films
+
+How to test the List?
+
+First need to add a Film to the Diretor > use the setter setFilms<Film> films
+
+Create an new ArrayList of Film called a filmlist
+Add a film into that filmlist ArrayList<Film> using .add(film to be added)
+Now add that ArrayList to the Director using  setFilms and pass in the filmslist
+
+?????  Now the above director has an ArrayList of <Film> how do we add another film to that array list?
+
+3.7 Annotate the Director and Films for Hibernate - One To Many relationship
+
+First I removed any mention of the foreign class from Director and Film
+
+Ran the runner and checked that the tables are created in postico
+
+Reinstate the foreign element in both classes
+
+3.8 Forgot to add Id to both Film and Director and add getter and setter
+
+
+
+
+
+
+
+
 
 
 
